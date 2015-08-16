@@ -13,11 +13,11 @@
          <div id = "header">
             <div id = "headerTitle">Rotten Tomatoes</div>
             <div class = "navigation">
-               <a href = "index.php?search=red%2Bgreen%2Bblue%2Byellow&page=1">Show All</a>
-               <a href = "index.php?search=red&page=1">Show Red</a>
-               <a href = "index.php?search=green&page=1">Show Green</a>
-               <a href = "index.php?search=blue&page=1">Show Blue</a>
-               <a href = "index.php?search=yellow&page=1">Show Yellow</a>
+               <a href = "MovieSearch.php?search=red%2Bgreen%2Bblue%2Byellow&page=1">Show All</a>
+               <a href = "MovieSearch.php?search=red&page=1">Show Red</a>
+               <a href = "MovieSearch.php?search=green&page=1">Show Green</a>
+               <a href = "MovieSearch.php?search=blue&page=1">Show Blue</a>
+               <a href = "MovieSearch.php?search=yellow&page=1">Show Yellow</a>
             </div>
       </div>
 		
@@ -34,7 +34,7 @@
       $movies = json_decode($data, true);		
 ?>		
       <div id = "content">
-       <div class = "navigation" style = "padding:0"><a href = "<?php echo 'index.php?search=' . $search . '&page=' . ($page+1) ?>">Next</a></div>
+       <div class = "navigation" style = "padding:0"><a href = "<?php echo 'MovieSearch.php?search=' . $search . '&page=' . ($page+1) ?>">Next</a></div>
         <div class = "container">
          <table border = "0" class = "results">
          <tr>
