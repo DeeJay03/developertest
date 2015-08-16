@@ -1,0 +1,80 @@
+html, body, #container { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+body > #container { 
+  height: auto;
+  min-height: 100%; 
+}
+#content { 
+  padding-bottom: 5em;
+  padding-top: 2em; 
+}
+#header {
+  background: grey;
+}
+#headerTitle {
+  margin-left: 30px;
+  font-size: 50px;
+}
+#footer { 
+  clear: both; 
+  position: relative; 
+  z-index: 10; 
+  height: 3em; 
+  margin-top: -3em; 
+  text-align: center;
+  background: grey;
+  color: white; 
+  line-height: 3em;
+}
+.navigation {
+  margin-left: 30px;
+  padding: 20px 0px;
+}
+.navigation a {
+  display: inline-block;
+  padding: 10px 15px; /* top&bottom = 10px, left&right = 15px */
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #222;
+  background: #222;
+  color: #fff;
+}
+.navigation a:hover {
+  color: #222;
+  background: transparent;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  border:3px solid #222;
+  padding: 10px;
+}
+.results {
+  width: 100%;
+}
+.results table {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #222;
+  border-radius: 25px;
+}
+.title {
+  font-size: 30px;
+}
+.thumb {
+  width: 20%;
+  height: 50px;
+}
+.linkColour {
+  color: black;
+}
+.linkColour:hover {
+  color: grey;
+}
